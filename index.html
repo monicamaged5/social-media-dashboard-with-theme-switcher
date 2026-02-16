@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="dark">
+  <main class="container">
+    <section class="header">
+      <div class="header-details">
+       <h1 class="header-title">  Social Media Dashboard</h1>
+       <p class="total-followers">Total Followers: 23,004</p>
+      </div>
+      <div class="toggle">
+        <p class="toggle-label">Dark Mode</p>
+        <div class="line"></div>
+        <label class="switch">
+          <input type="checkbox" id="themetoggle">
+          <span class="slider round"></span>
+        </label>
+        
+      </div>
+    </section>
+    <section class="cards-con">
+      <div class="card facebook">
+        <div class="card-title">
+          <img src="images/icon-facebook.svg">
+          <p class="username"> @nathanf</p>
+        </div>
+        <span class="followers-number">1987</span>
+        <p class="followers">Followers</p>
+        <div class="card-change">
+          <img src="images/icon-up.svg">
+          <p class="rank-upper">  12 Today</p>
+        </div>
+      </div>
+      <div class="card twitter">
+        <div class="card-title">
+          <img src="images/icon-twitter.svg">
+          <p class="username"> @nathanf</p>
+        </div>
+        <span class="followers-number">1044</span>
+        <p class="followers">Followers</p>
+        <div class="card-change">
+          <img src="images/icon-up.svg">
+          <p class="rank-upper">  99 Today</p>
+        </div>
+      </div>
+      <div class="card instagram">
+        <div class="card-title">
+          <img src="images/icon-instagram.svg">
+          <p class="username"> @realnathanf</p>
+        </div>
+        <span class="followers-number">11k</span>
+        <p class="followers">Followers</p>
+        <div class="card-change">
+          <img src="images/icon-up.svg">
+          <p class="rank-upper">  1099 Today</p>
+        </div>
+      </div>
+      <div class="card youtube">
+        <div class="card-title">
+          <img src="images/icon-youtube.svg">
+          <p class="username">  Nathan F.</p>
+        </div>
+        <span class="followers-number">1987</span>
+        <p class="followers">Followers</p>
+        <div class="card-change">
+          <img src="images/icon-down.svg">
+          <p class="rank-lower">  12 Today</p>
+        </div>
+      </div>
+    </section>
+    <section class="today-title">
+      <h1>Overview - Today</h1>
+    </section>
+    <section class="container-today">
+      <div class="today-card">
+        <span class="title" >
+          Page Views
+          <img src="images/icon-facebook.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">87</span>
+          <span class="change">          
+            <img src="images/icon-up.svg" alt="Facebook">
+            <span class="high-percentage">3%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Likes
+          <img src="images/icon-facebook.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">52</span>
+          <span class="change">          
+            <img src="images/icon-down.svg" alt="Facebook">
+            <span class="low-percentage">2%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Likes
+          <img src="images/icon-instagram.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">5462</span>
+          <span class="change">          
+            <img src="images/icon-up.svg" alt="Facebook">
+            <span class="high-percentage">2257%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Profile Views
+          <img src="images/icon-instagram.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">52k</span>
+          <span class="change">          
+            <img src="images/icon-up.svg" alt="Facebook">
+            <span class="high-percentage"> 1375%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Retweets
+          <img src="images/icon-twitter.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">117</span>
+          <span class="change">          
+            <img src="images/icon-up.svg" alt="Facebook">
+            <span class="high-percentage">303%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Likes
+          <img src="images/icon-twitter.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">507</span>
+          <span class="change">          
+            <img src="images/icon-up.svg" alt="Facebook">
+            <span class="high-percentage">553%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Likes
+          <img src="images/icon-instagram.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">107</span>
+          <span class="change">          
+            <img src="images/icon-down.svg" alt="Facebook">
+            <span class="low-percentage">19%</span>
+          </span>
+        </span>
+      </div>
+      <div class="today-card">
+        <span class="title" >
+          Total Views
+          <img src="images/icon-instagram.svg" alt="Facebook">
+        </span>
+        <span class="total-numbers" >
+          <span class="number">1407</span>
+          <span class="change">          
+            <img src="images/icon-down.svg" alt="Facebook">
+            <span class="low-percentage"> 12%</span>
+          </span>
+        </span>
+      </div>
+    </section>
+
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
